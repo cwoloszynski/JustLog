@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CB1CBAD11FE7F4D800391914 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CBAC11FE7F4D800391914 /* Logging.swift */; };
 		CB1CBAD21FE7F4D800391914 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CBAC21FE7F4D800391914 /* Logger.swift */; };
-		CB1CBAD31FE7F4D800391914 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = CB1CBAC31FE7F4D800391914 /* .gitkeep */; };
 		CB1CBAD41FE7F4D800391914 /* LogstashDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CBAC41FE7F4D800391914 /* LogstashDestination.swift */; };
 		CB1CBAD51FE7F4D800391914 /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CBAC51FE7F4D800391914 /* FileDestination.swift */; };
 		CB1CBAD61FE7F4D800391914 /* AsyncSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CBAC61FE7F4D800391914 /* AsyncSocketManager.swift */; };
@@ -23,7 +22,6 @@
 		CB1CBADE1FE7F4D800391914 /* NSError+Readability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CBACF1FE7F4D800391914 /* NSError+Readability.swift */; };
 		CB1CBADF1FE7F4D800391914 /* Dictionary+Flattening.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CBAD01FE7F4D800391914 /* Dictionary+Flattening.swift */; };
 		CB1CBB4B1FE7F58200391914 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1CBB4C1FE7F58200391914 /* CocoaAsyncSocket.framework */; };
-		CB1CBB4F1FE7F69A00391914 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB1CBB4E1FE7F69900391914 /* Info.plist */; };
 		CB1CBBB71FE7F79300391914 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1CBBB81FE7F79300391914 /* SwiftyBeaver.framework */; };
 /* End PBXBuildFile section */
 
@@ -126,8 +124,7 @@
 			children = (
 				CB1CBB4E1FE7F69900391914 /* Info.plist */,
 			);
-			name = JustLog;
-			path = "New Group";
+			path = JustLog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,8 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1CBB4F1FE7F69A00391914 /* Info.plist in Resources */,
-				CB1CBAD31FE7F4D800391914 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
